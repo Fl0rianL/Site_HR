@@ -12,8 +12,6 @@
 	<link href="css/connexion.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link href="css/index.css" rel="stylesheet" media="screen">
-
-	
 	</head>
 <body>
     
@@ -24,6 +22,7 @@
             </div>
         </div>
 		<form class="form-signin center" method="post" action = "data/connexion.php">
+			<input type="text" class="input-block-level" placeholder="Nom" name="nom">
 			<input type="checkbox" name="marron" id="marron"/><label for="marron"><img src="img/marron.jpeg" alt="marron" class="img-rounded"/></label>
 			<input type="checkbox" name="rouge" id="rouge"/><label for="rouge"><img src="img/rouge.gif" alt="rouge" class="img-rounded"/></label>
 			<input type="checkbox" name="bleu_clair" id="bleu_clair"/><label for="bleu_clair"><img src="img/bleu_clair.jpg" class="img-rounded" alt="bleu clair"/></label>

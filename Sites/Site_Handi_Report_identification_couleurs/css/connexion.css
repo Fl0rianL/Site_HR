@@ -25,6 +25,7 @@ display: inline ! important;
 }
 .form-signin img{
 	width: 80px;
+	margin-bottom: 10px;
 }
 h1{
   text-align: center;
