@@ -38,14 +38,14 @@ END$$
 
 CREATE PROCEDURE ajout_questionnaire(p_question_oui_non_1 INT,p_question_oui_non_2 INT,p_question_oui_non_3 INT,
 p_question_qcm_1 INT,p_question_qcm_2 INT,p_question_qcm_3 INT,p_mail VARCHAR(50),
-p_id_personne INT, id_questionnaire_date INT)
+p_id_personne INT)
 BEGIN
 DECLARE v_id_date_questions INT; /* permet de stocker l'autoincrement actuel de la table Date_questions*/
 
-INSERT INTO Date_questions(jour_releve_questionnaire) VALUES (CURRENT_DATE);
-
 SELECT `AUTO_INCREMENT` INTO v_id_date_questions FROM INFORMATION_SCHEMA.TABLES 
 WHERE TABLE_SCHEMA = 'handi-report' AND TABLE_NAME = 'Date_questions';
+
+INSERT INTO Date_questions(jour_releve_questionnaire) VALUES (CURRENT_DATE);
 
 INSERT INTO Questionnaire(question_oui_non_1,question_oui_non_2,
 question_oui_non_3,question_qcm_1,question_qcm_2,question_qcm_3,
