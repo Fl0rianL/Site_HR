@@ -291,7 +291,6 @@ a:focus {
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
   width: 940px;
-  color: #004006;
 }
 
 .span12 {
@@ -627,7 +626,6 @@ a:focus {
   display: table;
   line-height: 0;
   content: "";
-  background-color: green;
 }
 
 .container:after {

@@ -1,9 +1,9 @@
-
-  
+body {
+	background-color:#86D6F8 !important;
 }
+
 .center{
   text-align: center;
-  background-color: #6AB1F8;
 }
 
 .justify{
@@ -17,6 +17,4 @@
 .question_block{
 	margin-top: 150px;
 	margin-left: 400px;
-	background-color: #86D6F8;
 }
-

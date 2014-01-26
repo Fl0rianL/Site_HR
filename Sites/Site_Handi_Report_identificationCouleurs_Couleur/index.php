@@ -11,7 +11,6 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="css/connexion.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-	<link href="css/index.css" rel="stylesheet" media="screen">
 	</head>
 <body>
     

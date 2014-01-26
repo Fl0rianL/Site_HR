@@ -64,7 +64,7 @@ if (!isset($_SESSION['prenom']) || !isset($_SESSION['nom']))
 </body>
 <footer>
 	<div class="modal-footer">
-	Copyright tagada!! 
+	Copyright....
 <?php		
 	foreach ($footer as $onglet2) {
 		echo '<a href = "structure.php?page='.$onglet2['page'].'"> '.$onglet2['titre'].'</a> ';
